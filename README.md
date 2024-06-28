@@ -1,14 +1,20 @@
 # MRPD
+
 Official implementation of "MRPD: Undersampled MRI Reconstruction by Prompting a Large Latent Diffusion Model Trained on Vast Natural Images" by Ziqi Gao and S. K. Zhou.
+
+This repo is still under construction and contains some draft code for the basic reproducibility. 
+
 
 <p align="center"><img src="pics/main.png" width="700" /></p>
 
-## Repository Structure
-All the experiments are issued in the form of self-explanatory `python` codes. To execute each code, we provide python scripts inside `stable-diffusion/scripts/` folder.
 
 ## Validation Data
 
 We put the first volume in the official validation set of the single-coil FastMRI knee dataset inside `data/example/val` folder. Note that the last number denotes the slice number, and that the first five and the last five noisy slices are removed as stated in the paper.
+
+
+## Repository Structure
+All the experiments are issued in the form of self-explanatory `python` codes. To execute each code, we provide python scripts inside `stable-diffusion/scripts/` folder. You can run  `python inverse_fastMRIknee_recon.py --ckpt [LDM_CHECKPOINT_PATH]` for the validation set reconstruction. Currently you can download the LDM checkpoints from [Latent Diffusion](https://github.com/CompVis/latent-diffusion).
 
 ## Credits
 This codebase is modified based on [PSLD](https://github.com/LituRout/PSLD). Thanks for creating this awesome repo.
