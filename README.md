@@ -1,8 +1,8 @@
 # MRPD
+This repo is still under construction and contains some draft code for the basic reproducibility. 
+
 
 Official implementation of "MRPD: Undersampled MRI Reconstruction by Prompting a Large Latent Diffusion Model Trained on Vast Natural Images" by Ziqi Gao and S. K. Zhou.
-
-This repo is still under construction and contains some draft code for the basic reproducibility. 
 
 
 <p align="center"><img src="pics/main.png" width="700" /></p>
